@@ -21,7 +21,7 @@ const Navbar = () => {
     <>
       <nav
         className={`navbar fixed-top ${
-          isPastHeader ? 'navbar-dark bg-dark shadow' : 'navbar-transparent'
+          isPastHeader ? 'navbar-dark' : 'navbar-transparent'
         }`}
       >
         <div className="container-fluid d-flex justify-content-between align-items-center">
@@ -69,22 +69,22 @@ const Navbar = () => {
 
           {isPastHeader && (
             <div className="nav-right">
-            <a href="#contact" className="btn btn-primary">
-              Apply Now
+            <a href="#apply-now" className="btn btn-primary">
+              APPLY NOW
             </a>
           </div>
           )}
         </div>
       </nav>
 
-      <header className="hero-section">
-        <div className="hero-overlay">
+      <header className="head-section">
+        <div className="head-overlay">
           <div className="container text-center text-white">
-            <h1>Header Section</h1>
-            <p>Scroll down to see the navbar blend with the top of the header</p>
+            <h1 className='h1-styling'>Grounded in the Truth.</h1>
+            <p className='p-styling'>The GUIDON Intersession RecWeek 2025 <br/>June 24 to June 28</p>
             {!isPastHeader && (
-            <a href="#contact" className="btn btn-primary">
-              Apply Now
+            <a href="#apply-now" className="btn btn-primary">
+              APPLY NOW
             </a>
             )}
 

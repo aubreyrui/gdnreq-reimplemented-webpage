@@ -1,0 +1,48 @@
+.grid-link {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.grid-item-fixed {
+  width: 400px;
+  height: 180px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.grid-item-fixed:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.p-stylingapp {
+  font-size: 14px;
+  font-style: Chivo;
+  text-align: left;
+  font-weight: 600;
+}
+
+.container {
+    padding: 10px;
+}
+
+.row {
+    padding-bottom: 8vw;
+}
+
+.col-lg-6 {
+    align-content: center;
+}
+
+.h1-content {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding: 3vw 0vw;
+}

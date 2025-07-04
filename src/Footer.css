@@ -1,6 +1,30 @@
-.footer-layout {
-    font-size:2vw;
-    height: 5rem;
-    background-color: black;
-    color: white;
+.footer-section {
+  height: 50vh;
+  position: relative;
+  background: url('https://picsum.photos/id/1018/1600/800') no-repeat center center/cover;
+}
+
+.footer-overlay {
+  background-color: rgba(9, 32, 67, 0.75); /* matches transparent navbar initially */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.btn-primary {
+  font-weight: 500;
+  font-size: 14px;
+  font-family: Chivo;
+  background-color: white;
+  color: #1B4480;
+  border: none;
+}
+
+.h1-footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
 }
