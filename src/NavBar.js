@@ -9,7 +9,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const headerHeight = document.querySelector('.hero-section')?.offsetHeight || 0;
+      const headerHeight = document.querySelector('.head-section')?.offsetHeight || 0;
       setIsPastHeader(window.scrollY > headerHeight - 70);
     };
 
