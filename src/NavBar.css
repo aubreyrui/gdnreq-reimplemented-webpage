@@ -1,0 +1,89 @@
+.navbar {
+  padding: 1rem 3rem;
+  font-size: 14px;
+}
+
+.navbar .nav-link {
+  padding: 0.5vw 1vw;
+}
+
+.nav-left {
+  flex: 1;
+  padding-left: 2vw;
+}
+
+.nav-right {
+  width: 150px;
+  text-align: right;
+}
+
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.navbar-dark.bg-dark {
+  transition: background-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.nav-link {
+  color: white;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.nav-link:hover,
+.dropdown-toggle:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #212529;
+  border: none;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #343a40;
+  color: white;
+}
+
+
+.hero-section {
+  height: 100vh;
+  position: relative;
+  background: url('https://picsum.photos/id/1018/1600/800') no-repeat center center/cover;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* matches transparent navbar initially */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+/* Ensures overlay content is above pseudo-element */
+.hero-overlay {
+  position: relative;
+  z-index: 2;
+}
+
+.content-section {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.btn-primary {
+  font-weight: 500;
+  font-size: 14px;
+}
